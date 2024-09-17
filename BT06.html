@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài Tập 6</title>
+</head>
+<body>
+    <h2>Bài Tập 6</h2>
+    <form action="" method="post">
+        <table align="center" width="700px">
+            <h3 align="center" style="background-color: brown;">Đăng ký thông tin người sử dụng</h3>
+            <tbody>
+                <tr>
+                    <td>Tên Đăng nhập</td>
+                    <td><input type="text" name="username" id="username" placeholder="Nhập username"></td>
+                </tr>
+                <tr>
+                    <td>Mậu Khẩu</td>
+                    <td><input type="password" name="password" id="password" placeholder="Nhập password"></td>
+                </tr>
+                <tr>
+                    <td>Nhập lại mậu khẩu</td>
+                    <td><input type="password" name="password" id="password" placeholder="Nhập lại password"></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="email" name="email" id="email"></td>
+                </tr>
+                <tr>
+                    <td>Giới tính</td>
+                    <td><input type="radio" name="Gioitinh" id="Gioitinh">
+                    <label for="Gioitinh">Nam</label>
+                    <input type="radio" name="Gioitinh" id="Gioitinh">
+                    <label for="Gioitinh">Nữ</label>
+                    </td> 
+                </tr>
+                <tr>
+                    <td>Độ tuổi</td>
+                    <td><input type="radio" name="dotuoi" id="dotuoi">
+                    <label for="dotuoi">Dưới 13 tuổi</label>
+                    <input type="radio" name="dotuoi" id="dotuoi">
+                    <label for="Gioitinh">Từ 13 đến 17 tuổi</label>
+                    <td><input type="radio" name="dotuoi" id="dotuoi">
+                    <label for="dotuoi">Từ 18 đến 25 tuổi</label>
+                    <input type="radio" name="dotuoi" id="dotuoi">
+                    <label for="Gioitinh">Trên 25 tuổi</label>
+                    </td> 
+                </tr>
+                <tr>
+                    <td>Sở thích của bạn</td>
+                    <td>
+                        <input type="checkbox" name="Sothich" id="amnhac">
+                        <label for="amnhac">Âm nhạc</label>
+                        <input type="checkbox" name="Sothich" id="Game">
+                        <label for="Game">Game</label>
+                        <input type="checkbox" name="Sothich" id="Thethao">
+                        <label for="Thethao">Thể thao</label>
+                        <input type="checkbox" name="Sothich" id="DuLich">
+                        <label for="DuLich">Du lịch</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Nghề nghiệp</td>
+                    <td>
+                        <select name="nghenghiep" id="">
+                            <option value="">--Chọn nghề nghiệp--</option>
+                            <option value="IT">IT</option>
+                            <option value="ST">Siêu Thị</option>
+                            <option value="Nong">Nông</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="mota">Mô tả bản thân</label></td>
+                    <td><textarea name="mota" id="mota" placeholder="mô tả về bản thân..."></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" value="Đăng Ký">
+                        <input type="reset" value="Làm lại">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>
