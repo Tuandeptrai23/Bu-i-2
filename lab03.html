@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Ký Thành viên</title>
+</head>
+<body>
+    <form action="" method="post">
+        <table width ="500px">
+            <option style="color: rgb(236, 235, 235); background-color: rgb(233, 19, 19);" align ="center"><h3>Đăng ký thành viên</h3></option>
+            <tr>
+                <td>Họ Và Tên :</td>
+                <td><input type="text" name="fullname" id="fullname" size="30"></td>
+            </tr>
+            <tr>
+                <td>Tên Đăng Nhập :</td>
+                <td><input type="text" name="username" id="username" size="30" placeholder="Nhập tên đăng nhập"></td>
+            </tr>
+            <tr>
+                <td>Mậu Khẩu :</td>
+                <td><input type="password" name="password" id="password" size="30" placeholder="Nhập password"></td>
+            </tr>
+            <tr>
+                <td>Ảnh Đại Diện :</td>
+                <td><input type="file" name="avatar" id="avatar" size="30px"></td>
+            </tr>
+            <tr>
+                <td>Thư Điện Tử :</td>
+                <td><input type="email" name="email" id="email" size="30px"></td>
+            </tr>
+            <tr>
+                <td>Sở Thích :</td>
+               <td>
+                <input type="checkbox" name="Sothich" id="Bongda">
+                <label for="Bongda">Bóng Đá</label>
+                <input type="checkbox" name="Sothich" id="Xemphim">
+                <label for="Xemphim">Xem phim</label>
+                <br>
+                <input type="checkbox" name="Sothich" id="DuLich">
+                <label for="DuLich">Du Lịch</label>
+                <input type="checkbox" name="Sothich" id="Bơi">
+                <label for="Bơi">Bơi</label>
+                <input type="checkbox" name="Sothich" id="Nghenhac">
+                <label for="Nghenhac">Nghe Nhạc</label>
+               </td>
+            </tr>
+            <tr>
+                <td>Quê Quán :</td>
+                <td>
+                    <select name="quequan" id="Dịachi" >
+                        <option value="">--Chọn Tỉnh--</option>
+                        <option value="HN">Hà Nội</option>
+                        <option value="TH">Thanh Hóa</option>
+                        <option value="HY">Hưng Yên</option>
+                        <option value="ĐN">Đằng Nẵng</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Địa Chỉ :</td>
+                <td><input type="text" name="điachi" id="diachi" size="30"></td>
+            </tr>
+            <tr>
+                <td>Điện Thoại :</td>
+                <td><input type="text" name="mobile" id="mobile" size="30"></td>
+            </tr>
+            <tr>
+                <td>Mô Tả ngắn :</td>
+                <td><textarea name="textarea" id="textarea"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Đăng Ký" name="Đăng KÝ">
+                    <input type="reset" value="Làm lại" name="Làm Lại">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
